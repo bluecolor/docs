@@ -1,4 +1,10 @@
+- [Home](/)
 - [Getting Started](README.md)
-- [DWH Development Standards](/dwh.md)
-- [Apache Airflow](/airflow.md)
-- [Metabase](/metabase.md)
+- **DWH**
+  - [DWH Development Standards](/dwh.md)
+  - [PL](/pl.md)
+  - [ELO](/elo.md)
+- **Tools**
+  - [Apache Airflow](/airflow.md)
+  - [Metabase](/metabase.md)
+  - [Docsify](docsify.md)
