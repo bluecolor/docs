@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Blue - Docs</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Blue Docs">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="icon" type="image/gif/png" href="book.png">
+
+  <style>
+    .btn-get-started:hover span {
+      color: #fff;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div data-app id="app">Please wait...</div>
+
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: '',
+      coverpage: true,
+      onlyCover: true,
+      auto2top: true,
+      autoHeader: false,
+      loadSidebar: '_sidebar.md',
+      auto2top: true,
+      subMaxLevel: 3,
+      search: {},
+      themeColor: '#0277bd'
+    }
+  </script>
+
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="https://unpkg.com/docsify-copy-code@2"></script>
+
+  <script>
+    ((window.gitter = {}).chat = {}).options = {
+      room: 'bluemessage/community'
+    };
+  </script>
+  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+  <script src="//unpkg.com/prismjs/components/prism-sql.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-plsql.min.js"></script>
+  <script src="//unpkg.com/docsify-algolia-search-plugin"></script>
+</body>
+
+</html>
