@@ -43,6 +43,6 @@ You can see the recent logs in `logs` table
 select * from util.logs order by 3 desc;
 ```
 
-### INSTALLATION
+### Installation
 
 See the [repository](https://github.com/bluecolor/pl) for installation

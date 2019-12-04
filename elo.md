@@ -7,12 +7,12 @@ Application consists of two parts;
 
 Front end application is optional. You can use ELO by just using the PLSQL package.
 
-## DEPENDENCIES
+## Dependencies
 
   - **ELO** uses [PL](https://github.com/bluecolor/pl) for logging.
   **PL** is a small utility and logging library for oracle.
 
 
-## INSTALLATION
+## Installation
 
 See the [repository](https://github.com/bluecolor/elo) for installation
