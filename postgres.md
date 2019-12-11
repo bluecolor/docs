@@ -10,11 +10,23 @@
 - `sudo apt-get update`
 - `sudo apt-get install postgresql postgresql-contrib`
 
-#### Create user and database
+### Create user and database
 
 ```sh
 sudo -u postgres psql
 create database mydb;
 create user myuser with encrypted password 'mypass';
 grant all privileges on database mydb to myuser;
+```
+
+### Start postgres
+
+```sh
+sudo service postgresql start
+```
+
+### Start on boot
+
+```sh
+sudo systemctl enable postgresql
 ```
