@@ -1,11 +1,15 @@
 - [Home](/)
 - [Getting Started](README.md)
+- **Sodexo**
+  - [Toplogy](sodexo.md)
+  - [Call KPI](call_.md)
 - **DWH**
   - [DWH Development Standards](dwh.md)
   - [PL](pl.md)
   - [ELO](elo.md)
 - **Tools**
   - [Postgres](postgres.md)
+  - [MySQL](mysql.md)
   - [Apache Airflow](airflow.md)
   - [Metabase](metabase.md)
   - [Docsify](docsify.md)
