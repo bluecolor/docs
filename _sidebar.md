@@ -1,8 +1,5 @@
 - [Home](/)
 - [Getting Started](README.md)
-- **Sodexo**
-  - [Toplogy](sodexo.md)
-  - [Call KPI](call_.md)
 - **DWH**
   - [DWH Development Standards](dwh.md)
   - [PL](pl.md)

@@ -14,6 +14,7 @@
 
 ```
 create database DATABASE_NAME;
+grant all privileges on DATABASE_NAME.* TO 'USER_NAME'@'localhost' identified by 'PASSWORD';
 grant all privileges on DATABASE_NAME.* TO 'USER_NAME'@'%' identified by 'PASSWORD';
 flush privileges;
 ```
@@ -23,3 +24,4 @@ flush privileges;
 ```sh
 sudo systemctl enable mariadb
 ```
+
